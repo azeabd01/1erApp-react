@@ -1,0 +1,36 @@
+.contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+        align-content: center;
+        flex-direction: column;
+        list-style: none;
+        line-height: 1.5;
+
+        li {
+            a {
+                text-decoration: none;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.service {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}

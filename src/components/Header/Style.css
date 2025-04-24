@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+}
+
+.containerHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 80px;
+        height: 76px;
+        border: 1px solid #ffffff;
+    }
+
+    .imguser {
+        width: 40px;
+        height: 40px;
+    }
+
+    ul {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        display: flex;
+        align-self: flex-end;
+        gap: 15px;
+        list-style: none;
+
+        a {
+            color: rgb(128, 84, 84);
+            background-color: #eee6d8;
+            padding: 2px 15px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+
+    header {
+        background-color: #daab3a;
+        height: 10vh;
+    }
+
+    main {
+        background-color: #b67332;
+        justify-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    footer {
+        background-color: #93441a;
+        height: 20vh;
+        display: flex;
+        padding: 10px;
+        
+    }
+}
