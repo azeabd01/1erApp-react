@@ -22,9 +22,8 @@ const ImSrc = (props) => {
         </>
     )
 }
-
-
-const FoCon = (props) => {
+ 
+const FoCon = () => {
     return (
         <>
             <div className="contact">
@@ -39,6 +38,7 @@ const FoCon = (props) => {
     );
 }
 export default FoCon;
+
 
 
 

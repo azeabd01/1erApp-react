@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 
     img {
         width: 80px;
@@ -18,7 +19,21 @@
         height: 40px;
     }
 
-    ul {
+    #btn {
+        background-color:#b67332;
+        display: flex;
+        align-self: flex-end;
+        margin-bottom: 3px;
+        border: 2px solid white ;
+        width: 14%;
+        height: 25px;
+        border-radius: 10px;
+        display: block;
+        color: #ffffff;
+        
+    }
+
+    /* ul {
         margin-bottom: 0px;
         margin-top: 0px;
         display: flex;
@@ -31,5 +46,5 @@
             background-color: #eee6d8;
             padding: 2px 15px;
         }
-    }
+    } */
 }

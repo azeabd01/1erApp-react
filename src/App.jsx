@@ -1,5 +1,6 @@
 import Home from "./Pages/Home/Index";
 import "./Pages/Home/Index";
+// import Counter from "./components/use";
 // import "./Style.css";
 // import './App.css'
 
@@ -8,6 +9,8 @@ export default function App() {
   return (
     <div className="App">
       <Home />
+      {/* <Counter /> */}
+     
     </div>
   );
 }
